@@ -1,0 +1,109 @@
+.slider {
+  width: 100%;
+  padding: 0;
+  position: relative;
+}
+
+.slider-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-item-img {
+  flex-basis: 951px;
+  height: 503px;
+  overflow: hidden;
+}
+
+.slider-item-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slider-item-bg {
+  flex-basis: 951px;
+  height: 503px;
+  background-color: #53354a;
+}
+
+.slider-item-review {
+  font-family: "Cardo";
+  font-size: 2rem;
+  color: #ffffff;
+  text-align: left;
+  margin-top: 115px;
+  max-width: 500px;
+  margin-left: 86px;
+}
+
+.slider-item-review-name {
+  font-family: "Raleway";
+  font-size: 0.8125rem;
+  color: #ffffff;
+  text-align: left;
+  margin-top: 30px;
+  margin-left: 86px;
+}
+
+/* Слайдер */
+.slick-slider {
+}
+/* Слайдер запущен */
+.slick-slider.slick-initialized {
+}
+/* Слайдер с точками */
+.slick-slider.slick-dotted {
+}
+/* Ограничивающая оболочка */
+.slick-list {
+  overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track {
+  display: flex;
+}
+
+.slider .slick-arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  font-size: 0;
+}
+
+.slider .slick-arrow.slick-prev {
+  left: 0;
+}
+
+.slider .slick-arrow.slick-next {
+  right: 0;
+}
+
+.slider .slick-dots {
+  display: flex;
+  position: absolute;
+  z-index: 12;
+  top: 80%;
+  left: 59%;
+}
+
+.slider .slick-dots li {
+  list-style: none;
+  margin: 0px 7px;
+}
+
+.slider .slick-dots button {
+  font-size: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.3);
+  border: none;
+}
+
+.slider .slick-dots li.slick-active button {
+  background-color: #ffffff;
+  outline: none;
+}

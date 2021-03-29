@@ -11,18 +11,18 @@
 }
 .team-row-item {
   margin: 0 10px;
+  max-width: 33, 3%;
 }
 
 .team-item-img {
   width: 270px;
-  height: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .team-item-img img {
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .team-item-name h4 {
   font-family: "Raleway";

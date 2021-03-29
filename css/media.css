@@ -6,7 +6,6 @@
 
   .team-item-img {
     width: 200px;
-    height: 200px;
   }
 }
 
@@ -29,7 +28,6 @@
 
   .team-item-img {
     width: 160px;
-    height: 160px;
   }
   .slider-row {
     flex-wrap: wrap;
@@ -122,7 +120,22 @@
   }
   .team-item-img {
     width: 100px;
-    height: 100px;
+  }
+  .slider-item-img {
+    height: 350px;
+  }
+  .slider-item-bg {
+    height: 350px;
+  }
+
+  .contacts-row {
+    flex-direction: column;
+  }
+  .contacts-row-item {
+    margin-bottom: 15px;
+  }
+  .contacts {
+    padding: 40px 0;
   }
 }
 
@@ -134,10 +147,10 @@
     display: none;
   }
   .slider-item-img {
-    height: 303px;
+    height: 280px;
   }
   .slider-item-bg {
-    height: 303px;
+    height: 280px;
   }
 
   .slider-item-review {
@@ -156,5 +169,99 @@
   }
   .features-row-item {
     margin: 30px 15px 0;
+  }
+  .features-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 40px;
+  }
+
+  .team-row-item {
+    max-width: 40%;
+  }
+
+  .team-row-item:nth-child(3) {
+    margin-top: 30px;
+  }
+  .team-row-item:nth-child(4) {
+    margin-top: 30px;
+  }
+  .team-item-discription p {
+    min-width: 30%;
+  }
+  .team-row {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 10px;
+  }
+
+  .features {
+    padding: 30px 0 50px;
+  }
+  .contacts-social-items {
+    width: 21px;
+    height: 21px;
+  }
+
+  .works-row-item {
+    width: 265px;
+    height: 205px;
+  }
+}
+@media screen and (max-width: 360px) {
+  html {
+    font-size: 8px;
+  }
+  .features-icon {
+    height: 30px;
+  }
+  .features-row-item-title h3 {
+    margin: 15px 0 15px;
+  }
+
+  .slider-item-review {
+    padding-left: 20px;
+    padding-right: 15px;
+  }
+}
+
+@media screen and (max-width: 333px) {
+  html {
+    font-size: 8px;
+  }
+  .slider .slick-dots {
+    left: 36%;
+  }
+  .slider-item-img {
+    height: 250px;
+  }
+  .slider-item-bg {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 264px) {
+  html {
+    font-size: 6px;
+  }
+  .header-logo {
+    display: none;
+  }
+  .header-row {
+    margin-bottom: 15px;
+  }
+
+  .slider-item-img {
+    height: 200px;
+  }
+  .slider-item-bg {
+    height: 200px;
   }
 }

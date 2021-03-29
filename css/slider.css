@@ -15,6 +15,9 @@
   flex-basis: 951px;
   height: 503px;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .slider-item-img img {
@@ -26,7 +29,21 @@
 .slider-item-bg {
   flex-basis: 951px;
   height: 503px;
+}
+
+.bg-img1 {
   background-color: #53354a;
+}
+.bg-img2 {
+  background-color: #3a3e64;
+}
+
+.bg-img3 {
+  background-color: #5c6b92;
+}
+
+.bg-img4 {
+  background-color: #7c262a;
 }
 
 .slider-item-review {
@@ -35,8 +52,8 @@
   color: #ffffff;
   text-align: left;
   margin-top: 115px;
-  max-width: 500px;
-  margin-left: 86px;
+  padding-left: 86px;
+  padding-right: 35px;
 }
 
 .slider-item-review-name {
@@ -48,20 +65,10 @@
   margin-left: 86px;
 }
 
-/* Слайдер */
-.slick-slider {
-}
-/* Слайдер запущен */
-.slick-slider.slick-initialized {
-}
-/* Слайдер с точками */
-.slick-slider.slick-dotted {
-}
-/* Ограничивающая оболочка */
 .slick-list {
   overflow: hidden;
 }
-/* Лента слайдов */
+
 .slick-track {
   display: flex;
 }

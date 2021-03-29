@@ -9,7 +9,21 @@
   align-items: center;
   flex-direction: row;
 }
+.team-row-item {
+  margin: 0 10px;
+}
 
+.team-item-img {
+  width: 270px;
+  height: 270px;
+}
+
+.team-item-img img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .team-item-name h4 {
   font-family: "Raleway";
   font-size: 1.375rem;
@@ -32,6 +46,7 @@
   color: #6c7279;
   text-align: left;
   margin-top: 30px;
+  padding-right: 10px;
 }
 
 .team-item-social-list {

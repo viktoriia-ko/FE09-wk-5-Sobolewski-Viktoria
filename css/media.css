@@ -1,0 +1,160 @@
+@media screen and (max-width: 1170px) {
+  .slider .slick-dots {
+    top: 90%;
+    left: 59%;
+  }
+
+  .team-item-img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .works-row-item:last-child {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 889px) {
+  .works-row-item:first-child {
+    display: none;
+  }
+
+  .team-item-img {
+    width: 160px;
+    height: 160px;
+  }
+  .slider-row {
+    flex-wrap: wrap;
+  }
+  .slider .slick-dots {
+    top: 53%;
+    left: 45%;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .menu-list-item {
+    list-style: none;
+    margin-left: 0;
+  }
+  .menu-list::before {
+    display: none;
+  }
+
+  .menu_btn {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    right: 25px;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    z-index: 2;
+  }
+
+  .menu_btn > span,
+  .menu_btn > span::before,
+  .menu_btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #616161;
+  }
+  .menu_btn > span::before {
+    content: "";
+    top: -8px;
+  }
+  .menu_btn > span::after {
+    content: "";
+    top: 8px;
+  }
+
+  .menu {
+    display: block;
+    position: absolute;
+    visibility: hidden;
+    top: 40px;
+    right: 15px;
+    width: 120px;
+    height: 20%;
+    margin: 10px;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
+  }
+
+  .menu-list {
+    display: block;
+    padding: 0px 20px 5px;
+    color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(0, 0, 0, 0.3);
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  #menu_toggle:checked ~ .menu_btn > span {
+    transform: rotate(45deg);
+  }
+  #menu_toggle:checked ~ .menu_btn > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+  #menu_toggle:checked ~ .menu_btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu_toggle:checked ~ .menu {
+    visibility: visible;
+    right: 0;
+  }
+  .team-item-img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 615px) {
+  html {
+    font-size: 12px;
+  }
+  .works-row-item:nth-child(3) {
+    display: none;
+  }
+  .slider-item-img {
+    height: 303px;
+  }
+  .slider-item-bg {
+    height: 303px;
+  }
+
+  .slider-item-review {
+    margin-top: 55px;
+  }
+
+  .features-row {
+    flex-direction: column;
+  }
+  .features-rows {
+    display: flex;
+    flex-direction: row;
+  }
+  .row-up {
+    margin-bottom: 0px;
+  }
+  .features-row-item {
+    margin: 30px 15px 0;
+  }
+}

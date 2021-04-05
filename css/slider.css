@@ -46,14 +46,16 @@
   background-color: #7c262a;
 }
 
+.slider-item-bg {
+  padding-left: 86px;
+  padding-right: 35px;
+}
 .slider-item-review {
   font-family: "Cardo";
   font-size: 2rem;
   color: #ffffff;
   text-align: left;
   margin-top: 115px;
-  padding-left: 86px;
-  padding-right: 35px;
 }
 
 .slider-item-review-name {
@@ -62,7 +64,6 @@
   color: #ffffff;
   text-align: left;
   margin-top: 30px;
-  margin-left: 86px;
 }
 
 .slick-list {

@@ -19,6 +19,11 @@
   .works-row-item:last-child {
     display: none;
   }
+
+  .features-row-item:nth-child(2) {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
 }
 
 @media screen and (max-width: 889px) {
@@ -144,7 +149,7 @@
   }
 
   .team-item-img {
-    width: 140px;
+    width: 130px;
   }
   .slider-item-img {
     height: 350px;
@@ -224,7 +229,9 @@
 
   .features-row {
     flex-direction: column;
+    align-items: flex-end;
   }
+
   .features-rows {
     display: flex;
     flex-direction: row;
@@ -235,9 +242,14 @@
   .features-row-item {
     margin: 50px 15px 0;
   }
+
+  .features-row-item-discription {
+    display: flex;
+    align-items: flex-end;
+  }
   .features-icon {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     overflow: hidden;
     height: 40px;
